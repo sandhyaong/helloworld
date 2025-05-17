@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use('/api/users', userRoutes);
 app.get('/', (req, res) => {
-    res.send('Hello World-with Hrkirat!');
+    res.send('Hello World-with Hrkirat to test workflows!');
   });
 // Error handler
 // app.use(errorMiddleware);
